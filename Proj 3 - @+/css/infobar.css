@@ -1,0 +1,72 @@
+#info-bar {
+    position: absolute;
+}
+
+#info-bar {
+    left: 88px;
+    top: 160px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 0px;
+    width: 0px;
+
+    overflow: hidden;
+
+    transition: width 0.6s, height 0.6s, left 0.6s, top 0.6s, background-color 0.6s;
+}
+
+#info-bar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#info-bar li span {
+	position: relative;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+#info-bar li {
+    text-align: center;
+}
+
+#info-bar .page {
+    display: block;
+    color: white;
+    width: 100%;
+    margin: 0px 10px 3px 0;
+}
+
+#info-bar .mine {
+    display: inline-block;
+    color: #079E6E;
+}
+
+#info-bar li img {
+    vertical-align: middle;
+}
+
+#info-bar .comment {
+    font-size: 24pt;
+}
+
+#info-bar .comment img {
+    width: 26px;
+    height: 26px;
+}
+
+.info {
+    position: relative;
+    width: 128px;
+    left: -64px;
+    padding-top: 7px;
+    transition: left 0.6s;
+}
+
+.posted {
+    margin-left: 19px;
+    margin-top: 1px;
+}
+
+.like {
+    margin-left: 10px;
+}

@@ -1,0 +1,57 @@
+.button {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 72px;
+    top: 144px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    background-size: 16px, 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition: left 0.6s, top 0.6s, opacity 0.6s;
+}
+
+.unread {
+    display: block;
+    position: relative;
+    left: 21px;
+    top: -4px;
+
+    background-color: #FF3A2D;
+    width: 19px;
+    height: 19px;
+
+    color: white;
+    font-size: 9pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mask {
+    background-image: url('../assets/images/nomask.png');
+}
+
+.history {
+    background-image: url('../assets/images/history.png');
+}
+
+.message {
+    background-image: url('../assets/images/message.png');
+}
+
+.setting {
+    background-image: url('../assets/images/setting.png');
+}
+
+.sign {
+    background-image: url('../assets/images/signin.png');
+}
+
+.button img {
+    width: 16px;
+    height: 16px;
+    left: 8px;
+    top: 8px;
+}

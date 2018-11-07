@@ -1,0 +1,37 @@
+.apb {
+    position: absolute;
+    margin: auto;
+    background-color: rgba(48, 63, 159, 0.5);
+    height: 25px;
+    width: 25px;
+    top: 146.5px;
+    left: 75.5px;
+
+    transition: width 0.6s, height 0.6s, background-color 0.6s, top 0.6s, left 0.6s;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+
+    background-image: url("../assets/images/atplus_white.png");
+    background-size: 21px, 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition: background-image 0.6s, background-size 0.6s;
+}
+
+.icon img {
+    content: url("../assets/images/atplus_white.png");
+    width: 21px;
+    height: 15px;
+    left: 2px;
+    top: 5px;
+
+    transition-delay: 0.6s;
+
+    transition: content 0.6s 0.6s, width 0.6s 0.6s, height 0.6s 0.6s, left 0.6s 0.6s, top 0.6s 0.6s;
+}

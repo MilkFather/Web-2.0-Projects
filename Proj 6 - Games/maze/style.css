@@ -1,0 +1,203 @@
+body {
+    text-align: center;
+    font-family: "Century Gothic";
+}
+
+body * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 24pt;
+    margin-bottom: 17px;
+}
+
+#status {
+	font-size: 24px;
+	margin-bottom: 19px;
+}
+
+#maze {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+}
+
+#hint {
+	font-size: 24px;
+	margin-bottom:15px;
+}
+
+.message {
+	margin-top: 15px;
+	margin-bottom: 17px;
+    line-height: 1em;
+	width : 600px;
+	text-align:left;
+}
+
+.safe {
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+
+.wall {
+    position: absolute;
+    border-color: black;
+    background-color: #EEEEEE;
+}
+
+#wall1 {
+    height: 51px;
+    width: 151px;
+    left: 0px;
+    top: 0px;
+
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-right: none;
+}
+
+#wall2 {
+    height: 50px;
+    width: 198px;
+    left: 151px;
+    top: 0px;
+
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#wall3 {
+    height: 51px;
+    width: 150px;
+    right: 0px;
+    top: 0px;
+
+    border-right: 1px solid;
+    border-top: 1px solid;
+}
+
+#wall4 {
+    height: 150px;
+    width: 150px;
+    left: 0px;
+    top: 51px;
+
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#wall5 {
+    height: 150px;
+    width: 150px;
+    right: 0px;
+    top: 51px;
+
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#wall6 {
+    height: 48px;
+    width: 200px;
+    left: 0px;
+    bottom: 0px;
+
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#wall7 {
+    height: 49px;
+    width: 99px;
+    left: 200px;
+    bottom: 0px;
+
+    border-bottom: 1px solid;
+}
+
+#wall8 {
+    height: 48px;
+    width: 200px;
+    left: 299px;
+    bottom: 0px;
+
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#wall9 {
+    height: 150px;
+    width: 98px;
+    left: 200px;
+    bottom: 49px;
+
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+.hit {
+    background-color: red;
+}
+
+#start, #end {
+    user-select: none;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+
+    font-family: "Arial";
+    font-size: 34px;
+    vertical-align: baseline;
+	line-height: 45px;
+}
+
+#start {
+    left: 0px;
+    top: 205px;
+    background-color: #86FD87;
+}
+
+#end {
+    right: 0px;
+    top: 205px;
+    background-color: #8684FF;
+}
+
+.ripple {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    pointer-events: none;
+}
+
+#wallsample {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #EEEEEE;
+
+    width: 100px;
+    height: 25px;
+}

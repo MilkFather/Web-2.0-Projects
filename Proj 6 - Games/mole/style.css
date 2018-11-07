@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: "Century Gothic";
+}
+
+body * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 18pt;
+}
+
+#hud {
+    margin-top: 1px;
+}
+
+#hud > div {
+    width: 280px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+#hud > div::after {
+    clear: both;
+}
+
+#btn, #statusField {
+    vertical-align: middle;
+    float: left;
+    left: 0;
+}
+
+#timeField, #scoreField {
+    vertical-align: middle;
+    float: right;
+    right: 0;
+}
+
+input[type="text"] {
+    height: 15px;
+}
+
+#time, #score {
+    width: 30px;
+}
+
+#status {
+    width: 125px;
+}
+
+#btn, #timeField, #statusField, #scoreField {
+    display: inline-block;
+}
+
+#field {
+    margin-top: 27px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+#field input {
+    margin: 6px 6px 5px 6px;
+}
+
+#field input:focus {
+    border-color: red;
+}
+
+#inst {
+    font-family: "Colon";
+    font-size: 10pt;
+    display: inline-block;
+    text-align: left;
+}
+
+#inst ol {
+    margin-top: 0.7em;
+    line-height: 1.3em;
+}

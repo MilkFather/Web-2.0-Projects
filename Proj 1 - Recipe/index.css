@@ -1,0 +1,96 @@
+* {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#mainAction {
+		font-weight: bold;
+		float: right;
+		background: #31b918;
+}
+
+#mainAction:hover {
+		background: #14770e;
+		color: white;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
+
+body {
+	background-image: url("res/img/silverware.jpg");
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+#intro {
+	margin-top: 40pt;
+}
+
+#sep {
+	margin-top: 80pt;
+	margin-bottom: 80pt;
+}
+
+#promotion {
+	border-style: dotted;
+	border-color: red;
+	border-radius: 10pt;
+	border-width: 3pt;
+	margin-left: 100pt;
+	margin-right: 100pt;
+}
+
+#copyright {
+	text-align: right;
+	font-size: 10pt;
+	color: #A0A0A0;
+	margin-top: 20pt;
+}
+
+a {
+	color: inherit;
+}
+
+#mainlnk {
+	background-color: #ef9110;
+	color: white;
+	padding: 5pt 5pt 5pt 5pt;
+	border-radius: 10pt;
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+#mainlnk:active {
+	background-color: #bf800c;
+}
+
+img {
+	image-rendering: crisp-edges;
+}

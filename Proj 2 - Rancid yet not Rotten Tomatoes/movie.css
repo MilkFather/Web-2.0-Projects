@@ -1,0 +1,160 @@
+body {
+    font-size: 8pt;
+    font-family: "Verdana", "Tahoma", "serif";
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("./res/img/background.png");
+    background-repeat: repeat;
+}
+
+.banner {
+    margin: 0 0 0 0;
+    height: 50px;
+    background-image: url("./res/img/bannerbackground.png");
+    background-repeat: repeat-x;
+}
+
+#banner-foreground {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: "Tahoma", "Verdana", "serif";
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 4px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.content-main {
+    display: block;
+    width: 550px;
+    float: left;
+}
+
+.content-top {
+    height: 83px;
+    background-image: url("./res/img/rottenbackground.png");
+    background-repeat: repeat-x;
+}
+
+#review-count {
+    float: left;
+    color: white;
+    margin-top: 58px;
+}
+
+#score {
+    color: red;
+    font-size: 48pt;
+    font-weight: bold;
+    float: left;
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+#verdict-img {
+    float: left;
+    height: 83px;
+}
+
+#comments-left, #comments-right {
+    width: 47%;
+    float: left;
+    margin: 2% 2% 2% 2%;
+}
+
+#comments-left {
+    margin-right: 1%;
+}
+
+#comments-right {
+    margin-left: 1%;
+}
+
+.comments-main {
+    line-height: 14px;
+}
+
+.comment-content {
+    font-weight: bold;
+    background-color: #E1D697;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    padding: 8px 8px 8px 8px;
+    margin: 0 0 0 0;
+    overflow: hidden;
+}
+
+.comment-box {
+    margin-bottom: 3em;
+}
+
+.comment-box span {
+    font-style: italic;
+}
+
+.comment-box img {
+    float: left;
+    margin-right: 5px;
+}
+
+.commenter {
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+.movie-info {
+    display: block;
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+    font-family: "Arial", "serif";
+}
+
+.movie-info-bottom {
+    padding: 0px 10px;
+}
+
+.term {
+    margin-bottom: 1em;
+}
+
+.movie-info dt {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.movie-info dd {
+    line-height: 1.3em;
+}
+
+.pg-count {
+    clear: both;
+    padding: 5px;
+    background-color: #A2B964;
+    margin: 0 0 0 0;
+    text-align: center;;
+}
+
+#standards {
+    border-style: none;
+    position: fixed;
+    float: right;
+    right: -4px;
+    bottom: 0;
+}

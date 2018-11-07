@@ -1,0 +1,178 @@
+*:focus {
+    outline: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    background-image: url('res/img/mountains_bg.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #3399CC;
+    font-family: "hei";
+    font-size: 32pt;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.calc {
+    border-spacing: 4px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 4px;
+
+    width: 280px;
+    height: 450px;
+    overflow: hidden;
+
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.resField {
+    height: 33%;
+    overflow: hidden;
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+#exprWindow {
+    overflow-x: scroll;
+    margin-top: 3%;
+    width: 100%;
+    height: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+
+    background-color: transparent;
+
+    text-align: right;
+    resize: none;
+
+    font-size: 16pt;
+    border-style: none;
+}
+
+#resultWindow {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    padding: 5px;
+    margin-top: 10%;
+    vertical-align: bottom;
+
+    background-color: transparent;
+
+    text-align: right;
+    resize: none;
+    font-size: 28pt;
+    border-style: none;
+
+    overflow-x: scroll;
+}
+
+.inputpad {
+    width: 100%;
+    height: 67%;
+    overflow: hidden;
+    background-color: #202528;
+}
+
+.btnrow {
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.btn {
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+    width: 25%;
+    height: 100%;
+    font-size: 12pt;
+    text-align: center;
+
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: #202528;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #4A4A4A;
+}
+
+.btn:active {
+    background-color: #181C1F;
+}
+
+.op {
+    background-color: #5F4BB7;
+}
+
+.op:hover {
+    background-color: #6D5BBD;
+}
+
+.op:active {
+    background-color: #4B38A0;
+}
+
+#btn_equal {
+    background-color: #FEC501;
+    color: black;
+}
+
+#btn_equal:hover {
+    background-color: #F9C718;
+}
+
+#btn_equal:active {
+    background-color: #EFB304;
+}
+
+.br-bb {
+    border-width: 0 1px 1px 0;
+}
+
+.bb {
+    border-width: 0 0 1px 0;
+}
+
+.br {
+    border-width: 0 1px 0 0;
+}
+
+.bn {
+    border-width: 0;
+}
+
+#btn_backspace {
+    background-image: url('res/img/del.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+.icn_bs {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16px;
+    height: 16px;
+}
