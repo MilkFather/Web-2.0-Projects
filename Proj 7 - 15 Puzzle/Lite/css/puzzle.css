@@ -1,0 +1,187 @@
+body {
+    text-align: center;
+}
+
+body * {
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    user-select: none;
+}
+
+.main {
+    transition: all 0.3s;
+}
+
+h1 {
+    color: black;
+}
+
+#ref {
+    position: relative;
+    right: 45px;
+    bottom: 30px;
+    float: right;
+    width: 250px;
+    height: 250px;
+    
+}
+
+#playground {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: 600px;
+    min-width: 600px;
+    min-height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.panel {
+    width: 150px;
+    height: 150px;
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    background-image: url("../img/lenna.jpg");
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    overflow: hidden;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.spare {
+    opacity: 0;
+}
+
+#truth {
+    display: none;
+}
+
+.bbutton {
+    display: inline-block;
+    border-radius: 6px;
+
+    text-align: center;
+    line-height: 72px;
+
+    border-style: none;
+    width: 150px;
+    height: 72px;
+
+    font-size: 20pt;
+    color: white;
+
+    transition: all 0.3s;
+}
+
+#start {
+    background-color: #41cd52;
+}
+
+#start:hover {
+    box-shadow: 0px 10px 30px rgba(65, 205, 82, 0.5);
+}
+
+.p_0 {
+    background-position: 0% 0%;
+}
+
+.p_1 {
+    background-position: 33.3% 0%;
+}
+
+.p_2 {
+    background-position: 66.7% 0%;
+}
+
+.p_3 {
+    background-position: 100% 0%;
+}
+
+.p_4 {
+    background-position: 0% 33.3%;
+}
+
+.p_5 {
+    background-position: 33.3% 33.3%;
+}
+
+.p_6 {
+    background-position: 66.7% 33.3%;
+}
+
+.p_7 {
+    background-position: 100% 33.3%;
+}
+
+.p_8 {
+    background-position: 0% 66.7%;
+}
+
+.p_9 {
+    background-position: 33.3% 66.7%;
+}
+
+.p_10 {
+    background-position: 66.7% 66.7%;
+}
+
+.p_11 {
+    background-position: 100% 66.7%;
+}
+
+.p_12 {
+    background-position: 0% 100%;
+}
+
+.p_13 {
+    background-position: 33.3% 100%;
+}
+
+.p_14 {
+    background-position: 66.7% 100%;
+}
+
+.p_15 {
+    background-position: 100% 100%;
+}
+
+.r_0 {
+    top: 0px;
+}
+
+.r_1 {
+    top: 150px;
+}
+
+.r_2 {
+    top: 300px;
+}
+
+.r_3 {
+    top: 450px;
+}
+
+.c_0 {
+    left: 0px;
+}
+
+.c_1 {
+    left: 150px;
+}
+
+.c_2 {
+    left: 300px;
+}
+
+.c_3 {
+    left: 450px;
+}

@@ -1,0 +1,187 @@
+body {
+    text-align: center;
+}
+
+body * {
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    user-select: none;
+}
+
+.main {
+    transition: all 0.3s;
+}
+
+.blurred {
+    filter: blur(4px);
+}
+
+h1 {
+    color: black;
+}
+
+#ref {
+    position: relative;
+    right: 45px;
+    bottom: 30px;
+    float: right;
+    width: 250px;
+    height: 250px;
+    
+}
+
+#playground {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: 600px;
+    min-width: 600px;
+    min-height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.panel {
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    overflow: hidden;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.panel:hover {
+    z-index: 2;
+    background-size: 660px 660px;
+    box-shadow: 0 12px 17px 2px rgba(0,0,0,0.14), 0 5px 22px 4px rgba(0,0,0,0.12), 0 7px 8px -4px rgba(0,0,0,0.20);
+}
+
+.spare {
+    opacity: 0;
+}
+
+#truth {
+    display: none;
+}
+
+.bbutton {
+    display: inline-block;
+    border-radius: 6px;
+
+    text-align: center;
+    line-height: 72px;
+
+    border-style: none;
+    width: 150px;
+    height: 72px;
+
+    font-size: 20pt;
+    color: white;
+
+    transition: all 0.3s;
+}
+
+#save {
+    width: 200px;
+}
+
+#start, #save {
+    background-color: #41cd52;
+}
+
+#setting, #imgsel {
+    background-color: rgb(224, 34, 34);
+}
+
+#setting:hover, #imgsel:hover {
+    box-shadow: 0px 10px 30px rgba(205, 65, 65, 0.5);
+}
+
+#start:hover, #save:hover {
+    box-shadow: 0px 10px 30px rgba(65, 205, 82, 0.5);
+}
+
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.8); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    transition: all 0.3s;
+}
+
+.overlay > div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul > li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#imgsel, #lvlsel {
+    border-radius: 24px;
+    width: 250px;
+    height: 48px;
+    font-size: 16pt;
+    line-height: 48px;
+}
+
+#lvlsel {
+    border-color: rgb(224, 34, 34);
+    color: black;
+    /*background-color: white;*/
+    border-width: 2px;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+input[type=file] {
+    position: absolute;
+    opacity: 0;
+
+}
+
+#lvltxt {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.numplus, .numminus {
+    /*position: relative;
+    top: 50%;
+    transform: translateY(-50%);*/
+    margin-left: 10px;
+    line-height: 1em;
+    display: inline-block;
+    border-color: rgb(224, 34, 34);
+    border-radius: 100%;
+    border-width: 2px;
+    border-style: solid;
+
+    width: 24px;
+    height: 24px;
+}
