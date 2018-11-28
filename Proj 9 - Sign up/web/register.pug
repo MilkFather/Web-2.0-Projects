@@ -1,0 +1,25 @@
+doctype html 
+html 
+    head
+        meta(charset="utf-8")
+        title Register
+        link(rel="stylesheet", href="./css/main.css")
+        script(src="./js/main.js")
+        script(src="./js/register.js")
+    body 
+        h1 Register 
+        div(class="main")
+            form(method="POST", id="f")
+                span Username
+                input(type="text", name="name", id="n" value=username, placeholder="8-18 alphanums, start by char")
+                span ID
+                input(type="text", name="id", id="pa", value=id, placeholder="8 digits, cannot start with 0")
+                span E-mail
+                input(type="text", name="email", id="e", value=email, placeholder="Your e-mail address")
+                span Phone
+                input(type="text", name="phone", id="ph", value=phone, placeholder="11 digits, cannot start with 0")
+                div(id="error") #{errormsg}
+                div
+                    input(type="submit", id="sub", value="Register")
+            div
+                button(id="clear") Clear

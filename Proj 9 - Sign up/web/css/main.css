@@ -1,0 +1,107 @@
+* {
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    color: #0c137c;
+}
+
+body {
+    background-image: url("../img/water-1330252_1920.jpg");
+}
+
+.main {
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.main::before, .main::after {
+    clear: both;
+}
+
+.main * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.err {
+    border-color: crimson !important;
+}
+
+#error {
+    font-size: 10pt;
+    color: crimson !important;
+    border-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: #d1d5da;
+    font-size: 12pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    color: gray;
+}
+
+ul > li {
+    margin-bottom: 10px;
+}
+
+ul > li > span {
+    color: black;
+    text-align: right;
+    margin-left: 20px !important;
+}
+
+input[type="submit"], button {
+    display: inline-block;
+    border-radius: 6px;
+
+    text-align: center;
+    line-height: 40px;
+
+    border-style: none;
+    width: 150px;
+    height: 40px;
+
+    color: white;
+
+    margin-bottom: 10px;
+
+    background-color: dodgerblue;
+}   
+
+#clear {
+	background-color: crimson;
+}
+
+.main div {
+    text-align: center;
+}
+
+form span {
+    font-size: 10pt;
+    color: dimgrey;
+}
+
+.hide {
+    visibility: hidden;
+}

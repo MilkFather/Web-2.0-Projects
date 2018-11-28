@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        title Details
+        meta(charset= "utf-8")
+        link(rel="stylesheet", href="./css/main.css")
+        script(src="./js/details.js")
+    body
+        h1 Details
+        div(class="main")
+            ul
+                li Username #[span #{username}]
+                li ID #[span #{id}]
+                li E-mail #[span #{email}]
+                li Phone #[span #{phone}]
+            div
+                button(id="out") Back
