@@ -1,0 +1,60 @@
+#button:hover {
+    width: 152px;
+    height: 237px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#button:hover .apb {
+    background-color: rgba(48, 63, 159, 1);
+    width: 50px;
+    height: 50px;
+    top: 134px;
+    left: 63px;
+}
+
+#button:hover .icon {
+    background-image: url("/shared/assets/images/atplus_green.png");
+    background-size: 35px, 25.5px;
+}
+
+#button:hover #info-bar {
+    width: 128px;
+    height: 128px;
+    left: 24px;
+    top: 0px;
+    background-color: rgba(48, 63, 159, 1);
+}
+
+#button:hover #info-bar > .info {
+    left: 0;
+}
+
+#button:hover #control-ring-container .button {
+    opacity: 1;
+}
+
+#button:hover #control-ring-container .mask {
+    left: 10px;
+    top: 109px;
+}
+
+#button:hover #control-ring-container .history {
+    left: 0px;
+    top: 146px;
+}
+
+#button:hover #control-ring-container .message {
+    left: 14px;
+    top: 183px;
+}
+
+#button:hover #control-ring-container .setting {
+    left: 47px;
+    top: 204px;
+}
+
+#button:hover #control-ring-container .sign {
+    left: 90px;
+    top: 201px;
+}

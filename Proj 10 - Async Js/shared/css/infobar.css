@@ -1,0 +1,21 @@
+#info-bar {
+    position: absolute;
+}
+
+#info-bar {
+    left: 88px;
+    top: 160px;
+    background-color: rgba(48, 63, 159, 0);
+    height: 0px;
+    width: 0px;
+
+    overflow: hidden;
+
+    transition: all 0.6s;
+}
+
+.info {
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 32px;
+}
