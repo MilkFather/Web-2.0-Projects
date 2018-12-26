@@ -1,0 +1,25 @@
+html(lang="zh-cn")
+    head 
+        meta(charset="utf-8")
+        title 登录
+        link(rel="stylesheet", href="/css/main.css")
+        script(src="https://code.jquery.com/jquery-3.3.1.js", integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=", crossorigin="anonymous")
+        script(src="/js/util.js")
+        script(src="/js/login.js")
+
+    body 
+        h1 登录
+        div(class="ui-box")
+            form(method="POST", id="f")
+                span 用户名 
+                span(class="err-msg e")
+                input(type="text", name="name", id="n" value=username, placeholder="8-18位数字字母，以字母开头")
+
+                span 密码 
+                span(class="err-msg e")
+                input(type="password", name="pwd", id="pa", placeholder="6-12位数字、字母、下划线、短横杠")
+                
+            div(class="btndiv")
+                button(id="reg") 注册
+                button(id="sub") 登录
+                

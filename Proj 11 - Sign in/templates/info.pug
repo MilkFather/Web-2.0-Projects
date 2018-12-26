@@ -1,0 +1,20 @@
+html(lang="zh-cn")
+    head
+        meta(charset="UTF-8")
+        title 用户信息
+        link(rel="stylesheet", href="/css/main.css")
+        script(src="https://code.jquery.com/jquery-3.3.1.js", integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=", crossorigin="anonymous")
+        script(src="/js/info.js")
+
+    body
+        h1 用户信息
+        h1(style="display:none;" id="username") #{name}
+        div(class="ui-box")
+            span(class="err-msg") #{redirectmsg}
+            ul 
+                li 姓名: #[span #{name}]
+                li 学号: #[span #{id}]
+                li 电子邮件: #[span #{email}]
+                li 电话: #[span #{phone}]
+            div(class="btndiv")
+                button(id="logout") 登出

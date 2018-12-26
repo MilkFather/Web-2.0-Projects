@@ -1,0 +1,46 @@
+html(lang="zh-cn")
+    head
+        meta(charset="utf-8")
+        title 注册
+        link(rel="stylesheet", href="/css/main.css")
+        script(src="https://code.jquery.com/jquery-3.3.1.js", integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=", crossorigin="anonymous")
+        script(src="/js/util.js")
+        script(src="/js/register.js")
+
+    body 
+        h1 注册
+        div(class="ui-box")
+            form(id="f")
+                div
+                    span 用户名 
+                    span(class="err-msg", id="ne") 
+                    input(type="text", name="name", id="n" value=username, placeholder="8-18位数字字母，以字母开头")
+
+                div
+                    span 密码 
+                    span(class="err-msg", id="pae")
+                    input(type="password", name="pwd", id="pa", placeholder="6-12位数字、字母、下划线、短横杠")   
+
+                div
+                    span 重复密码 
+                    span(class="err-msg", id="pare")
+                    input(type="password", id="par", placeholder="重复刚才的密码")
+
+                div
+                    span 学号 
+                    span(class="err-msg", id="ie")
+                    input(type="text", name="id", id="i", value=id, placeholder="8位数字，不能以0开头")
+
+                div
+                    span 电子邮件 
+                    span(class="err-msg", id="ee")
+                    input(type="text", name="email", id="e", value=email, placeholder="你的电子邮箱地址")
+
+                div 
+                    span 电话 
+                    span(class="err-msg", id="phe")
+                    input(type="text", name="phone", id="ph", value=phone, placeholder="11位数字，不能以0开头")
+    
+            div(class="btndiv")
+                button(id="clear") 清空
+                button(id="sub") 注册
